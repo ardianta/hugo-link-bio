@@ -49,11 +49,10 @@ body {
 }
 
 .link-item .thumbnail {
-  width: auto;
-  max-width: 100px;
+  width: 100px;
+  width: 100px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  flex-grow: 1;
 }
 
 .footer {
