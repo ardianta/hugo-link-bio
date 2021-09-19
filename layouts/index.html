@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<div class="links">
+  {{  range (where .Site.Pages "Type" "link" ) }}
+  
+  <div class="link-item">
+    <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" class="thumbnail">
+    <h2 class="title">
+      <a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Title }}</a>
+    </h2>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

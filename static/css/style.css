@@ -1,0 +1,63 @@
+body {
+  background-color: teal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.header {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.header .username {
+  font-size: 1.5rem;
+}
+
+.header .avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.link-item {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.link-item .title {
+  font-size: 1rem;
+}
+
+.link-item .title  a {
+  text-decoration: none;
+  color: royalblue;
+}
+.link-item .title  a:active {
+  color: dodgerblue;
+  outline: 1px dashed dodgerblue;
+}
+
+.link-item .thumbnail {
+  width: auto;
+  max-width: 100px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  flex-grow: 1;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 2em 0;
+}

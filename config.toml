@@ -1,0 +1,7 @@
+baseURL = 'https://bio.petanikode.com/'
+languageCode = 'en-us'
+title = 'Petani Kode - Links in Bio'
+
+[params]
+avatar = "/img/avatar.svg"
+username = "@petanikode"
